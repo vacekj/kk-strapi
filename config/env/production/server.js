@@ -1,3 +1,3 @@
 module.exports = ({ env }) => ({
-  host: env('HOST', 'https://api.kryptokurzy.cz')
+  host: env('HEROKU_URL', '0.0.0.0')
 });
