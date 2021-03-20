@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "terms",
+  "info": {
+    "name": "term",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "explanation": {
+      "type": "richtext"
+    },
+    "related_terms": {
+      "collection": "term"
+    }
+  }
+}
