@@ -10206,6 +10206,9 @@ strapi-provider-email-sendmail@3.5.3:
     sendmail "^1.6.1"
     strapi-utils "3.5.3"
 
+"strapi-provider-upload-better-local@file:./better-local":
+  version "3.5.3"
+
 strapi-provider-upload-local@3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.3.tgz#88c7ba39df909f99fb685f624c9f0ce0da0a50b8"

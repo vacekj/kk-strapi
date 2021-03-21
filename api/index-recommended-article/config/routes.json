@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/index-recommended-article",
+      "handler": "index-recommended-article.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/index-recommended-article",
+      "handler": "index-recommended-article.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/index-recommended-article",
+      "handler": "index-recommended-article.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

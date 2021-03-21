@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_recommended_articles",
+  "info": {
+    "name": "index_recommended_article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "article": {
+      "model": "article"
+    }
+  }
+}
