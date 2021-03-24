@@ -7,7 +7,7 @@ module.exports = ({env}) => ({
       user: "cdn",
       password: process.env.SFTP_PASSWORD,
       basePath: "/cdn",
-      baseUrl: "https://cdn.kryptokurzy.cz/"
+      baseUrl: "/"
     }
   },
 });
