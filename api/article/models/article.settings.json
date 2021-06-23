@@ -39,7 +39,12 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": true,
+      "pluginOptions": {}
+    },
+    "course": {
+      "model": "course",
+      "via": "articles"
     }
   }
 }

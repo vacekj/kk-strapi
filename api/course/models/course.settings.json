@@ -1,20 +1,23 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "courses",
   "info": {
-    "name": "tags",
+    "name": "course",
     "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string",
-      "private": false,
       "required": true
+    },
+    "articles": {
+      "via": "course",
+      "collection": "article"
     }
   }
 }
